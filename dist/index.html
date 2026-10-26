@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#141413" />
+  <meta name="description" content="SATARK is an offline-capable simulated drone-monitoring and evidence-review platform. Monitor live drones, identify unreliable data, and verify AI anomaly detection." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>SATARK: Simulated Drone Monitoring &amp; AI Verification Platform</title>
+  <script>
+    (function() {
+      try {
+        var saved = localStorage.getItem('satark-theme') || 'dark';
+        var theme = saved;
+        if (saved === 'system') {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', theme === 'light' ? '#FAF9F5' : '#141413');
+      } catch (e) {}
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-Bl90Nb1R.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CGxQA-xm.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

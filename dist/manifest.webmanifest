@@ -1,0 +1,1 @@
+{"name":"SATARK: See the sky. Verify the signal.","short_name":"SATARK","description":"Simulated drone monitoring and evidence-review platform. Synthetic data only.","start_url":"/","display":"standalone","background_color":"#090B10","theme_color":"#090B10","lang":"en","scope":"/","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
